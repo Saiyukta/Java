@@ -4,6 +4,7 @@ package Generics;
 public class Exercise4 {
 
     public static <K, V> void printPair(K key, V value) {
+
         System.out.println(key + " = " + value);
     }
 
